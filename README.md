@@ -8,6 +8,6 @@ import jsXOR from 'js-xor';
 var str = "Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
 var salt = "This is salt!";
 
-var encrypted = exec(str, salt);
-var decrypted = exec(encrypted, salt);
+var encrypted = jsXOR.exec(str, salt);
+var decrypted = jsXOR.exec(encrypted, salt);
 ```
